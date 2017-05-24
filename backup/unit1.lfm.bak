@@ -1,0 +1,154 @@
+object Form1: TForm1
+  Left = 238
+  Height = 543
+  Top = 112
+  Width = 699
+  Caption = 'Касса автовокзал'
+  ClientHeight = 543
+  ClientWidth = 699
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object DBGrid1: TDBGrid
+    Left = 16
+    Height = 344
+    Top = 168
+    Width = 640
+    AutoAdvance = aaLeft
+    AutoFillColumns = True
+    Color = clWindow
+    Columns = <>
+    DataSource = Datasource1
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Button3: TButton
+    Left = 400
+    Height = 25
+    Top = 88
+    Width = 115
+    Caption = 'Таблица'
+    OnClick = Button3Click
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 16
+    Height = 144
+    Top = 16
+    Width = 369
+    Caption = 'Рейсы'
+    ClientHeight = 126
+    ClientWidth = 365
+    TabOrder = 2
+    object Label1: TLabel
+      Left = 15
+      Height = 13
+      Top = 22
+      Width = 100
+      Caption = 'Пункт отправление'
+      ParentColor = False
+    end
+    object ComboBox1: TComboBox
+      Left = 136
+      Height = 21
+      Top = 16
+      Width = 188
+      ItemHeight = 13
+      Items.Strings = (
+        'glazov'
+      )
+      OnChange = ComboBox1Change
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Left = 15
+      Height = 13
+      Top = 64
+      Width = 93
+      Caption = 'Пункт назначение'
+      ParentColor = False
+    end
+    object ComboBox2: TComboBox
+      Left = 136
+      Height = 21
+      Top = 64
+      Width = 188
+      ItemHeight = 13
+      Items.Strings = (
+        'votkinsk'
+        'lyum'
+        'perm'
+        'sarapul'
+        'yar'
+        'uchkhoz'
+        'pudem'
+        'parzi'
+        'otogurt'
+        'krasnogorskoye'
+        'karsovay'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+    end
+    object Button4: TButton
+      Left = 176
+      Height = 25
+      Top = 96
+      Width = 75
+      Caption = 'Поиск'
+      OnClick = Button4Click
+      TabOrder = 2
+    end
+  end
+  object Button1: TButton
+    Left = 528
+    Height = 25
+    Top = 88
+    Width = 112
+    Caption = 'Купить билет'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object MySQL50Connection1: TMySQL50Connection
+    Connected = True
+    LoginPrompt = False
+    AfterConnect = MySQL50Connection1AfterConnect
+    DatabaseName = 'avtovokzal'
+    KeepConnection = False
+    Params.Strings = (
+      'Port=3306'
+    )
+    Password = 'root'
+    Transaction = SQLTransaction1
+    UserName = 'root'
+    CharSet = 'UTF8'
+    HostName = '127.0.0.1'
+    Options = []
+    SkipLibraryVersionCheck = False
+    left = 416
+    top = 16
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = True
+    Database = MySQL50Connection1
+    Options = []
+    left = 528
+    top = 16
+  end
+  object Datasource1: TDataSource
+    DataSet = SQLQuery1
+    OnDataChange = Datasource1DataChange
+    left = 504
+    top = 120
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Database = MySQL50Connection1
+    Transaction = SQLTransaction1
+    Options = []
+    Params = <>
+    left = 408
+    top = 120
+  end
+end

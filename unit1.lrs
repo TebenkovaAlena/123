@@ -1,0 +1,49 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#237#0#6'Height'#3#31#2#3'Top'#3#132#0#5'W'
+  +'idth'#3#187#2#7'Caption'#6#31#208#154#208#176#209#129#209#129#208#176' '#208
+  +#176#208#178#209#130#208#190#208#178#208#190#208#186#208#183#208#176#208#187
+  +#12'ClientHeight'#3#31#2#11'ClientWidth'#3#187#2#10'OnActivate'#7#12'FormAct'
+  +'ivate'#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6#7'1.6.4.0'#0#7'TDBGrid'
+  +#7'DBGrid1'#4'Left'#2#16#6'Height'#3'X'#1#3'Top'#3#168#0#5'Width'#3#128#2#11
+  +'AutoAdvance'#7#6'aaLeft'#15'AutoFillColumns'#9#5'Color'#7#8'clWindow'#7'Col'
+  +'umns'#14#0#10'DataSource'#7#11'Datasource1'#8'ReadOnly'#9#8'TabOrder'#2#0#0
+  +#0#7'TButton'#7'Button3'#4'Left'#3#144#1#6'Height'#2#25#3'Top'#2'X'#5'Width'
+  +#2's'#7'Caption'#6#14#208#162#208#176#208#177#208#187#208#184#209#134#208#176
+  +#7'OnClick'#7#12'Button3Click'#8'TabOrder'#2#1#0#0#9'TGroupBox'#9'GroupBox1'
+  +#4'Left'#2#16#6'Height'#3#144#0#3'Top'#2#16#5'Width'#3'q'#1#7'Caption'#6#10
+  +#208#160#208#181#208#185#209#129#209#139#12'ClientHeight'#2'~'#11'ClientWidt'
+  +'h'#3'm'#1#8'TabOrder'#2#2#0#6'TLabel'#6'Label1'#4'Left'#2#15#6'Height'#2#13
+  +#3'Top'#2#22#5'Width'#2'd'#7'Caption'#6'!'#208#159#209#131#208#189#208#186
+  +#209#130' '#208#190#209#130#208#191#209#128#208#176#208#178#208#187#208#181
+  +#208#189#208#184#208#181#11'ParentColor'#8#0#0#9'TComboBox'#9'ComboBox1'#4'L'
+  +'eft'#3#136#0#6'Height'#2#21#3'Top'#2#16#5'Width'#3#188#0#10'ItemHeight'#2#13
+  +#13'Items.Strings'#1#6#6'glazov'#0#8'OnChange'#7#15'ComboBox1Change'#5'Style'
+  +#7#14'csDropDownList'#8'TabOrder'#2#0#0#0#6'TLabel'#6'Label2'#4'Left'#2#15#6
+  +'Height'#2#13#3'Top'#2'@'#5'Width'#2']'#7'Caption'#6#31#208#159#209#131#208
+  +#189#208#186#209#130' '#208#189#208#176#208#183#208#189#208#176#209#135#208
+  +#181#208#189#208#184#208#181#11'ParentColor'#8#0#0#9'TComboBox'#9'ComboBox2'
+  +#4'Left'#3#136#0#6'Height'#2#21#3'Top'#2'@'#5'Width'#3#188#0#10'ItemHeight'#2
+  +#13#13'Items.Strings'#1#6#8'votkinsk'#6#4'lyum'#6#4'perm'#6#7'sarapul'#6#3'y'
+  +'ar'#6#7'uchkhoz'#6#5'pudem'#6#5'parzi'#6#7'otogurt'#6#14'krasnogorskoye'#6#8
+  +'karsovay'#0#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#1#0#0#7'TButton'#7
+  +'Button4'#4'Left'#3#176#0#6'Height'#2#25#3'Top'#2'`'#5'Width'#2'K'#7'Caption'
+  +#6#10#208#159#208#190#208#184#209#129#208#186#7'OnClick'#7#12'Button4Click'#8
+  +'TabOrder'#2#2#0#0#0#7'TButton'#7'Button1'#4'Left'#3#16#2#6'Height'#2#25#3'T'
+  +'op'#2'X'#5'Width'#2'p'#7'Caption'#6#23#208#154#209#131#208#191#208#184#209
+  +#130#209#140' '#208#177#208#184#208#187#208#181#209#130#7'OnClick'#7#12'Butt'
+  +'on1Click'#8'TabOrder'#2#3#0#0#18'TMySQL50Connection'#18'MySQL50Connection1'
+  +#9'Connected'#9#11'LoginPrompt'#8#12'AfterConnect'#7#30'MySQL50Connection1Af'
+  +'terConnect'#12'DatabaseName'#6#10'avtovokzal'#14'KeepConnection'#8#14'Param'
+  +'s.Strings'#1#6#9'Port=3306'#0#8'Password'#6#4'root'#11'Transaction'#7#15'SQ'
+  +'LTransaction1'#8'UserName'#6#4'root'#7'CharSet'#6#4'UTF8'#8'HostName'#6#9'1'
+  +'27.0.0.1'#7'Options'#11#0#23'SkipLibraryVersionCheck'#8#4'left'#3#160#1#3't'
+  +'op'#2#16#0#0#15'TSQLTransaction'#15'SQLTransaction1'#6'Active'#9#8'Database'
+  +#7#18'MySQL50Connection1'#7'Options'#11#0#4'left'#3#16#2#3'top'#2#16#0#0#11
+  +'TDataSource'#11'Datasource1'#7'DataSet'#7#9'SQLQuery1'#12'OnDataChange'#7#21
+  +'Datasource1DataChange'#4'left'#3#248#1#3'top'#2'x'#0#0#9'TSQLQuery'#9'SQLQu'
+  +'ery1'#9'FieldDefs'#14#0#8'Database'#7#18'MySQL50Connection1'#11'Transaction'
+  +#7#15'SQLTransaction1'#7'Options'#11#0#6'Params'#14#0#4'left'#3#152#1#3'top'
+  +#2'x'#0#0#0
+]);

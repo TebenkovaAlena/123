@@ -1,0 +1,110 @@
+object Form2: TForm2
+  Left = 251
+  Height = 284
+  Top = 562
+  Width = 342
+  Caption = 'Купить билет'
+  ClientHeight = 284
+  ClientWidth = 342
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 96
+    Height = 33
+    Top = 16
+    Width = 105
+    Caption = 'Данные:'
+    Font.Height = -27
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 13
+    Top = 64
+    Width = 23
+    Caption = 'Имя:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 13
+    Top = 96
+    Width = 48
+    Caption = 'Фамилия:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 13
+    Top = 128
+    Width = 43
+    Caption = 'Откуда:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 13
+    Top = 160
+    Width = 30
+    Caption = 'Куда:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 112
+    Height = 21
+    Top = 64
+    Width = 176
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 112
+    Height = 21
+    Top = 96
+    Width = 176
+    TabOrder = 1
+  end
+  object ComboBox1: TComboBox
+    Left = 112
+    Height = 21
+    Top = 128
+    Width = 176
+    ItemHeight = 13
+    Items.Strings = (
+      'glazov'
+    )
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object ComboBox2: TComboBox
+    Left = 112
+    Height = 21
+    Top = 160
+    Width = 176
+    ItemHeight = 13
+    Items.Strings = (
+      'votkinsk'
+      'lyum'
+      'perm'
+      'sarapul'
+      'yar'
+      'uchkhoz'
+      'pudem'
+      'parzi'
+      'otogurt'
+      'krasnogorskoye'
+      'karsovay'
+    )
+    Style = csDropDownList
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 112
+    Height = 32
+    Top = 216
+    Width = 128
+    Caption = 'Купить билет'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+end
